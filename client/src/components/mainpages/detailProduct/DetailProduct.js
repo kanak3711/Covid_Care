@@ -37,7 +37,7 @@ function DetailProduct() {
                     <p>Sold: {detailProduct.sold}</p>
                     <Link to="/cart" className="cart"
                     onClick={() => addCart(detailProduct)}>
-                        Buy Now
+                        Take help
                     </Link>
                 </div>
             </div>
